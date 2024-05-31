@@ -1,0 +1,77 @@
+
+* {
+    transition: background-color 0.3s ease;
+
+}
+
+.container {
+    text-align: center;
+
+}
+
+.table_diver {
+    background-color: black;
+}
+
+
+
+
+.table_diver table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table_diver th,
+.table_diver td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.table_diver th {
+    background-color: #555;
+    color: white;
+    font-family: cursive;
+}
+
+.table_diver tr {
+    background-color: goldenrod;
+    font-family: cursive;
+}
+
+.FOOTER_TEXT {
+    margin-top: 20px;
+}
+
+.FOOTER_TEXT p {
+    text-align: center;
+    color: black;
+    font-family: cursive;
+}
+
+/* Dark Background for Buttons */
+button {
+    background-color: rgb(83, 148, 213);
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    font-family: cursive;
+    border-radius: 10px;
+}
+
+marquee {
+    font-family: cursive;
+    font-weight: bold;
+    color: #555;
+
+}
+
+/* Hover Effect for Buttons */
+button:hover {
+    background-color: #555;
+    /* Darker color on hover */
+}
+
+.flex {
+    display: flex;
+    justify-content: space-around;
+}
